@@ -117,7 +117,7 @@ function loadScript(src, callback) {
     t.parentNode.insertBefore(s, t);
 }
 
-let googlesr = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDnqpQNbY5_Hva06gDyM7ATE6BD9hbe-MQ&libraries=places&language=gr-el';
+let googlesr = 'https://maps.googleapis.com/maps/api/js?key=&libraries=places&language=gr-el';
 loadScript(googlesr, function () {
     //initMap();
 });
