@@ -1,0 +1,148 @@
+.appBg {
+ border-radius: 10px;
+background-image: url("/images/google-play-badge.png");
+background-size: cover;
+width: 241px;
+display: inline-block;
+margin-top: 40px;
+margin-right: 40px;
+height: 72px;
+ 
+}
+
+.home_exp_info2 {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400 !important;
+  color: #000000;
+  padding: 4px;
+  background-color: rgba(250, 250, 250, 0.623);
+  text-shadow: -3px -2px 5px rgb(255, 255, 255);
+ 
+}
+.graph_ex { 
+  position: absolute;
+  bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+ 
+  background-color: #00000057;
+  border-radius: 30px;
+  padding: 15px;
+  background: url("/images/graph.png")  #ffffff8c no-repeat left center;
+ 
+  width: 520px;
+  display:  inline-block;
+  margin-top: 20px;
+  height: 93px;
+
+ 
+
+
+}
+.homeSpacer {
+  height: 164px;
+}
+
+.appBg2 {
+  border-radius: 10px;
+    background-image: url("/images/app-store-badge.png");
+    background-size: cover;
+    width: 241px;
+    display: inline-block;
+    margin-top: 40px;
+    height: 72px;
+     
+    }
+    @media screen and (max-width: 590px) {
+      .home_exp_info2 {
+        display: none;
+   }
+   .graph_ex {
+        display: none;
+   }
+
+.homeSpacer {
+  display: none;
+}
+.appBg {
+ margin-right: 0px;
+height: 40px;
+width: 130px;
+}
+.appBg2 {
+  margin-left: 5px;
+  height: 40px;
+  margin-right: 0px;
+  width: 130px;
+  }
+ .home_visitor_div {
+height: 100%;
+ }
+    }
+
+    @media screen and (min-width: 600px)  {
+
+      .appBg {
+      position: relative;
+      bottom: 100px;
+  
+   
+      }
+  
+      .appBg2 {
+        position: relative;
+        bottom: 100px;
+  
+              
+       }
+  
+     .home_exp_info2 {
+      position: relative;
+      bottom: 100px;
+     }
+     .graph_ex {
+      bottom: 100px;
+      display: none;
+     }
+  }
+
+
+@media screen and (max-height: 450px) {
+
+    .appBg {
+ 
+      display: none;
+        
+    }
+
+    .appBg2 {
+ 
+    display: none;
+            
+     }
+
+   .home_exp_info2 {
+        display: none;
+   }
+   .graph_ex {
+        display: none;
+   }
+}
+.addappbutton {
+  animation: shadoweffect 10s linear infinite;
+    transition: opacity .3s ease-in-out;
+}
+.addappbutton:hover {
+  -webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 50px, #ff8000 0 -10px 30px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 50px, #ff8000 0 -10px 30px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+
+@keyframes shadoweffect {
+  50% { -webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 50px, #ff8000 0 -10px 30px, rgb(168, 218, 5) 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 50px, #ff8000 0 -10px 30px, rgb(168, 218, 5) 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0); }
+
+}

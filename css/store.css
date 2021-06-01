@@ -1,0 +1,216 @@
+ 
+
+.dateTimeTable {
+
+width: 90%;
+ 
+border-collapse: collapse;
+  
+ 
+    table-layout:fixed;
+}
+.header_divc {
+ 
+    transition: max-height 0.50s ease-out;
+    display: block;
+ max-height: 0;
+
+  
+
+}
+.ToggleDate {
+   position: relative;
+   right: 22px;
+   padding: 0px;
+   margin: 0px;
+   width: 80px;
+}
+ 
+.dateTimeTable td   {
+    padding: 5px;
+    border: 0px  solid rgba(8, 8, 8, 0.144);
+    border-bottom: 1px  solid rgba(8, 8, 8, 0.144);
+ 
+    color: #757575;
+    font-weight: 400;
+background-color: rgb(255, 255, 255);
+line-height: 30px;
+}
+.tablehead   {
+    background-color: rgb(247, 247, 247) !important;
+    color: #6e6e6e !important;
+    font-weight: 700 !important;
+    
+ 
+}
+.dateTimeTable  tr:hover td  {
+    border-bottom: 1px  solid rgba(8, 8, 8, 0.144);
+    background: rgb(233, 233, 233); 
+}
+ 
+.dateTimeTable a {
+    -webkit-box-shadow: 1px 2px 1px 0px rgba(0, 0, 0, 0.164);
+    -moz-box-shadow: 1px 2px 1px 0px rgba(0, 0, 0, 0.164);
+    box-shadow: 1px 2px 1px 0px rgba(0, 0, 0, 0.164);
+
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px solid #000000;
+ 
+    border: 1px solid rgb(216, 216, 216);
+    padding: 3px;
+    font-size: 19px;
+    color: rgb(81, 81, 82);
+}
+.logo_preved {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.dateTimeTable a:hover {
+   
+    background-color: rgb(235, 235, 235);
+    border: 1px solid #01389e;
+    color: #01389e;
+}
+ 
+ 
+.logo_prev {
+    max-height: 0px;
+    font-size: 16px;
+    width: 200px;
+    display: block;
+    margin-left: 36px;
+    line-height: 23px;
+    transition: max-height 0.50s ease-out;
+    background-size: cover;
+}
+.tabledate_div {
+    top: 0px;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px  solid  #00000041;
+ outline: none;
+    overflow: hide;
+    max-height: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    transition: max-height 0.50s ease-out;
+    display: block;
+    margin-left: 34px;
+  
+    overflow: hidden;
+}
+.tabledate_divc {
+    margin-left: 4px;
+}
+.tabledate_div a {
+cursor: pointer;
+color: gray;
+}
+.tabledate_div a:hover {
+    cursor: pointer;
+    color: rgb(11, 72, 185);
+    }
+.tabledate_divc i {
+ position: relative;
+ top: 20px;
+}
+.demo-chart:nth-child(1) {
+    color: #ACEC00;
+  }
+  .demo-chart:nth-child(2) {
+    color: #00BBD6;
+  }
+  .demo-chart:nth-child(3) {
+    color: #BA65C9;
+  }
+  .demo-chart:nth-child(4) {
+    color: #EF3C79;
+  }
+.expand_less_table  {
+    top: 0px !important;
+    font-size: 50px;
+    
+}
+.expand_less_table:hover {
+    top: 0px !important;
+    font-size: 50px;
+    color: rgb(255, 166, 0);
+    
+}
+ 
+  
+.mdl-card__actions {
+    background-color: #f0f0f0;
+}
+.div_option {
+    color: rgb(11, 72, 185);
+  font-weight: 500;
+    margin-left: 30px;
+    display: block;
+    position: relative;
+    top: -5px;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: rgb(11, 72, 185);
+    text-align: center;
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid rgb(11, 72, 185);
+}
+.separator::before {
+    margin-right: .25em;
+}
+.separator::after {
+    margin-left: .25em;
+}
+
+.ButtonLang {
+    display: inline-block;
+padding: 10px;
+cursor: pointer;
+color: rgb(122, 122, 122);
+font-size: 22px;
+margin: 5px;
+ 
+background-color: rgb(250, 250, 250);
+border: solid 1px rgb(207, 207, 207);
+
+}
+.ButtonLang:hover {
+  
+    background-color: rgb(235, 235, 235);
+    border: solid 1px rgb(175, 175, 175);
+}
+.ButtonLangAct {
+    background-color: rgb(212, 212, 212);
+    border: solid 1px rgb(228, 228, 228);
+    color: rgb(85, 85, 85);
+}
+.colorChooserBtn {
+    border-radius: 100%;
+    margin: 1px;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border: 1px solid transparent;
+
+}
+.colorChooserBtn:hover {
+    background: #383838;
+    border: 1px solid #494949;
+    box-shadow: 2px 2px #6161618e;
+
+}
+.invalidlabel ::placeholder {
+color:rgba(0, 0, 0, 0.164);
+}

@@ -1,0 +1,23 @@
+.dialog_admin {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.822);
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    text-align: center;
+    display: none;
+
+}
+.dialog_admin_content {
+display: inline-block;
+background-color: white;
+width: 80%;
+height: 80vh;
+overflow: scroll;
+ 
+ 
+
+}
